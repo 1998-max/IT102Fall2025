@@ -30,8 +30,8 @@ cipher = Cipher(algorithms.AES(key), modes.CBC(iv), backend=default_backend())
 encryptor = cipher.encryptor()
 ciphertext = encryptor.update(padded_plaintext) + encryptor.finalize()
 
-# Display the encrypted message in base64 for readability
-# (Printing the bytes form to match the example style with b'...'):
+# Display the encrypted messagegg  in base64 for readability
+# (Printing dthe bytes form to match the example style with b'...'):
 print(f"Encrypted message: {b64encode(ciphertext)!r}")
 
 # Decrypt the ciphertext (using the same key and IV)
