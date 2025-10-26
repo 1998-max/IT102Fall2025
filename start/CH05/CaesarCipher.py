@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Script that encrypts/decrypts text using the Caesar Cipher
-# By David Tshibamba
+# By Harel Boyenge
 # Date: 10/26/2025
 
 # Prompt for the source message
